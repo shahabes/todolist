@@ -1,0 +1,41 @@
+.text-large{
+    font-size: 40px;
+    font-weight: bold;
+}
+.mft-todo-item p{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mft-todo-item{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: ease .3s all;
+}
+
+.mft-todo-item:hover{
+opacity: .8;
+}
+
+.state-todo{
+    border-left: 10px solid #ffc107;
+}
+
+.state-done{
+    border-left: 10px solid #28a745;
+}
+
+.state-done i{
+    color: #28a745;
+    font-size: 20px;
+}
+
+.state-todo i{
+    color: #ffc107;
+    font-size: 20px;
+}
